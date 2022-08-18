@@ -1,0 +1,38 @@
+==========
+2022-08-17
+==========
+device/realme/RM6785:
+16d2c9 RM6785: Update overlay for vibration intensity levels [SamarV-121] (Wed Aug 17 19:45:47 2022)
+43e2e4 RM6785: overlay: Enable multiple vibration strength levels [Danny Lin] (Wed Aug 17 16:01:14 2022)
+80a1ab [DNM] RM6785: vibrator: Support multiple vibration strength levels [SamarV-121] (Wed Aug 17 16:01:07 2022)
+320e80 RM6785: vibrator: Lower TEXTURE_TICK effect timeout [SamarV-121] (Wed Aug 17 07:06:53 2022)
+a32a23 RM6785: Increase sf.hwc.min.duration [SamarV-121] (Wed Aug 17 07:06:52 2022)
+f4d793 RM6785: vibrator: Implement effects [SamarV-121] (Tue Aug 16 20:33:38 2022)
+
+frameworks/base:
+a1b0c4 base: Add three-fingers-swipe to screenshot [1/2] [ghbhaha] (Wed Aug 17 15:52:14 2022)
+7076f4 Make ringtone/notification volume steps configurable [Myst33d] (Wed Aug 17 15:52:12 2022)
+2d1685d Add support for app signature spoofing [Danny Lin] (Wed Aug 17 15:39:39 2022)
+d5358377 core: Spoof build properties [Danny Lin] (Wed Aug 17 15:39:39 2022)
+e1703aa KeyStore: Block key attestation for Google Play Services [Danny Lin] (Wed Aug 17 15:39:38 2022)
+5e5e65 SystemUI: Add dual-tone light and dark themes for QS [Danny Lin] (Wed Aug 17 15:39:38 2022)
+add853 SystemUI: Always refresh power menu on UI mode change [Danny Lin] (Wed Aug 17 15:39:38 2022)
+924aed fonts: Use variable font for Roboto Regular [Danny Lin] (Wed Aug 17 15:39:38 2022)
+3dd41c4 Hide power menu on secure lockscreen [maxwen] (Wed Aug 17 15:39:38 2022)
+fbe72d SystemUI: Allow user to add/remove QS with one click [Andrzej Ressel] (Wed Aug 17 15:39:38 2022)
+
+packages/apps/Launcher3:
+b1406b Launcher3: double tap on home screen to turn off screen [Thecrazyskull] (Wed Aug 17 09:09:16 2022)
+5408b8 Fix Personal/Work profile tab colors in All Apps [Danny Lin] (Wed Aug 17 08:58:57 2022)
+99ad25 Fix all apps header color in dark mode [Danny Lin] (Wed Aug 17 08:58:57 2022)
+9017c2 Launcher3: Add 2x2 workspace grid option [Danny Lin] (Wed Aug 17 08:58:35 2022)
+cffa3e Launcher3: Add Settings to center of default 5x5 dock [Danny Lin] (Wed Aug 17 08:58:35 2022)
+8e7be9 Properly expose GridCustomizationsProvider [Luca Stefani] (Wed Aug 17 08:58:29 2022)
+9997dc disable hard-wired QuickSearchBox widget [Daniel Micay] (Wed Aug 17 08:58:13 2022)
+d2eedb use com.android.wallpaper as wallpaper picker [Daniel Micay] (Wed Aug 17 08:57:22 2022)
+
+packages/apps/Settings:
+e5534cb Settings: Add three-fingers-swipe to screenshot [2/2] [ghbhaha] (Wed Aug 17 15:57:47 2022)
+
+system/core:
+5765db init: Add vendor-specific initialization hooks. [David Ng] (Wed Aug 17 10:33:09 2022)
